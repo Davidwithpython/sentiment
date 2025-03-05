@@ -16,7 +16,7 @@ if bt:
         st.image("neg.png")
     elif sen>0:
         st.success("pos")
-        st.image("C:/Users/SONY/Desktop/python/streamlit/pos.png")
+        st.image("pos.png")
     else:
         st.warning("neutral")
-        st.image("C:/Users/SONY/Desktop/python/streamlit/neu.png")
+        st.image("neu.png")
