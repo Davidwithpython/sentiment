@@ -13,7 +13,7 @@ if bt:
     sen=tb.sentiment[0]
     if sen<0:
         st.error("neg")
-        st.image("C:/Users/SONY/Desktop/python/streamlit/neg.png")
+        st.image("neg.png")
     elif sen>0:
         st.success("pos")
         st.image("C:/Users/SONY/Desktop/python/streamlit/pos.png")
