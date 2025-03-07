@@ -1,7 +1,10 @@
 import streamlit as st
 from textblob import TextBlob
-st.sidebar.title("about")
-st.sidebar.markdown("**david soni**")
+st.sidebar.title("About me")
+st.sidebar.markdown('''
+                    **I am a passionate and detail-oriented Sentiment Analyst with a strong background in natural language processing (NLP) and machine learning.
+   My expertise lies in analyzing and interpreting textual data to determine sentiment, emotions, and opinions expressed in various forms of communication, such as social media, customer reviews, and news articles.
+           develop by david soni**''')
 # st.sidebar.head("menu")
 st.sidebar.title("contact us")
 st.sidebar.text("david @ 9991223125 \n khushboo @ 112222 \n Seema @ 3332224")
